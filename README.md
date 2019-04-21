@@ -23,21 +23,20 @@ $ python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sym
 
 ├── README.md          				 <- The top-level README for developers using this project.
 
-├── QRSDetectorOffline.py   			 <- Offline QRS Detector module.
+├── main.py   			 <- Offline QRS Detector module.
 
-├── QRSDetectorOnline.py    			 <- Online QRS Detector module.
+├── Qreport.pdf    			 <- Online QRS Detector module.
 
-├── requirements.txt
 ```
 
 ## MIT-BIH Arrhythmia Database 
 MIT-BIH Arrhythmia Database was used to calibrate and verify the algorithm. Our offline code requires .csv file input of the sample data with 3 coloumns (as in the MIT-BIH Database). First coloumn is the timestamp, second and third are ECG signlas taken from two different leads. As discussed in Pan - Tompin's work, only one channel input is processed at a time (for efficient accuracy). This .csv file can be directly found from this website:
  [ MIT-BIH Database ](https://www.physionet.org/cgi-bin/atm/ATM).
 Here 1 Hour signal record is used. From TOOLBOX on the website you can choose to export file as .csv and then click on samples.csv to save it.
-File samples.csv should be in the same folder as offlineQRS.py.
+File samples.csv should be in the same folder as QRSdetector.py.
 
-## OfflineQRS.py
+## main.py
 This file assume you have saved samples.csv file from above instructions. Now you can directly run this file by the command through terminal once in the same directory in which your files reside:
 ```
-$ python offlineQRS.py
+$ python main.py
 ```
