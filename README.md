@@ -25,7 +25,7 @@ $ python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sym
 
 ├── main.py   			 <- Offline QRS Detector module.
 
-├── Qreport.pdf    			 <- Online QRS Detector module.
+├── report.pdf    			 <- Online QRS Detector module.
 
 ```
 
