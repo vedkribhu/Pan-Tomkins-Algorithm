@@ -1,6 +1,5 @@
 # Implementation of Pan-Tomkins Algorithm 
 This project is implementation of ECG QRS Detection based on the work of Pan-Tomkins algorithm.
-I acknowledge c-labpl (github user) and my senior Manas for guidance.
 
 
 ## Dependencies
