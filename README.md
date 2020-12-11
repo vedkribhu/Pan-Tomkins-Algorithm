@@ -1,6 +1,5 @@
-# Signals, System and Networks Project
-
-This repository is dedicated for the course project of course ES 216 taught by Prof. Shanmuganathan Raman. This project is implementation of ECG QRS Detection based on the work of Pan-Tomkins algorithm.
+# Implementation of Pan-Tomkins Algorithm 
+This project is implementation of ECG QRS Detection based on the work of Pan-Tomkins algorithm.
 I acknowledge c-labpl (github user) and my senior Manas for guidance.
 
 
