@@ -7,6 +7,7 @@ id = 599a404d-32c0-45c9-b831-1989e45b2f3c
 rootDirectory = postman/collections
 files[] = {"id":"767722-08f5593e-ca48-44d0-8ee2-d72422d42ab0","path":"dfasdf.json","metaData":{}}
 files[] = {"id":"767722-fba225ed-4c3a-4f8f-8d7a-70302fe733c1","path":"new test.json","metaData":{}}
+files[] = {"id":"767722-7842f648-1e74-4e1c-abf4-474a20328305","path":"new.json","metaData":{}}
 
 [relations.collections.metaData]
 
@@ -17,3 +18,4 @@ files[] = {"path":"index.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = index Copy.yaml
